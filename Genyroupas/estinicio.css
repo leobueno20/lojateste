@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f0f4; /* Fundo agradável com foco em feminilidade */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+header h1 {
+    color: #f9f0f4;
+    font-size: 64px; /* Tamanho da fonte aumentado para dar destaque */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Adiciona sombra de texto */
+    text-align: center; /* Centraliza o título */
+    margin-bottom: 20px; /* Adiciona espaçamento abaixo do título */
+    transition: font-size 0.3s, text-shadow 0.3s; /* Efeitos de transição suave */
+}
+
+header h1:hover {
+    font-size: 72px; /* Aumenta o tamanho da fonte ao passar o mouse */
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3); /* Efeito de sombra mais pronunciado ao passar o mouse */
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+/*nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.3rem;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+nav a:hover{
+    font-size: 22px;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+    transition: font-size 0.3s, text-shadow 0.3s;
+    transition-delay: 0.05;
+    background-color: rgb(242, 143, 160); 
+}*/
+
+.textoini {
+    margin-top: 20px;
+    font-size: 30px;
+    align-content:center;
+    text-align: center;
+}
+.textopreto{
+    margin-top: -30px;
+}
+/* IMAGENS */
+.products {
+    padding: 22px;
+    font-family: helvetica;
+}
+
+.product {
+    display: inline-block;
+    width: 23%; /* Ajustando o width para permitir espaço para margens e borda */
+    margin: 8px; /* Centralizando a margem e removendo margin-left */
+    text-align: center;
+    border: 4px solid #333;
+    padding: 5px;
+    border-radius: 12px;
+    box-sizing: content-box; /* Incluindo a largura da borda no cálculo do tamanho */
+}
+
+.product img {
+    max-width: 100%; /* Removendo o valor em pixels e definindo para 100% */
+    max-height: 100%; /* Removendo o valor em pixels e definindo para 100% */
+    width: 100%; /* Definindo a largura para ocupar todo o espaço do container */
+    height: auto; /* Mantendo a proporção original da imagem */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact p {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+
+
+
+  
